@@ -9,6 +9,7 @@
  * Create print method on Stack
  * Create peek method on Stack
  * Create swap method on Stack
+ * Create isEmpty method on Stack
  */
 
 class Stack {

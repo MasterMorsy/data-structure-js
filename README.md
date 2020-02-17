@@ -11,3 +11,4 @@ this repo for important data structure implementation in javascript👌
   - **peek()** return last item without delete it.
   - **swap()** swap last two element.
   - **print()** return join of storage elements as String.
+  - **isEmpty()** return Boolean to check if storage empty or not.
