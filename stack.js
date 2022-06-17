@@ -67,16 +67,16 @@ class Stack {
   }
 }
 
-const stackList = new Stack();
+const newStack = new Stack();
 
-stackList.push(10);
-stackList.push(20);
-stackList.push(30);
-stackList.push(40);
-stackList.print();
-stackList.peak();
-stackList.pop();
-stackList.print();
-stackList.peak();
-stackList.search(30);
-stackList.swap();
+newStack.push(10);
+newStack.push(20);
+newStack.push(30);
+newStack.push(40);
+newStack.print();
+newStack.peak();
+newStack.pop();
+newStack.print();
+newStack.peak();
+newStack.search(30);
+newStack.swap();
