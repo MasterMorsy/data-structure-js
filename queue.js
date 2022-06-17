@@ -1,7 +1,8 @@
 /**
  * implement queue data structure in javascript
  * Queue structure principle is first in last out (FIFO)
- * so push will be from last and pop will be from fist
+ * so enqueue will be from last and dequeue will be from fist
+ * will use equation [(target + 1) % max queue length] to get index of first or rear
  */
 
 class Queue {
@@ -18,7 +19,7 @@ class Queue {
   }
 
   // add element to queue
-  push = (value) => {
+  enqueue = (value) => {
     if (this.isEmpty()) {
       this._rear++;
       this._first++;
@@ -29,7 +30,7 @@ class Queue {
   };
 
   // delete last element in queue
-  pop() {
+  dequeue() {
     if (
       !this.isEmpty() &&
       this._items.length > 1 &&
@@ -87,13 +88,13 @@ class Queue {
 
 const newQueue = new Queue(5);
 
-newQueue.push(10);
-newQueue.push(20);
-newQueue.push(30);
-newQueue.push(40);
-newQueue.pop();
-newQueue.pop();
-newQueue.pop();
+newQueue.enqueue(10);
+newQueue.enqueue(20);
+newQueue.enqueue(30);
+newQueue.enqueue(40);
+newQueue.dequeue();
+newQueue.dequeue();
+newQueue.dequeue();
 newQueue.print();
 newQueue.first();
 newQueue.rear();
