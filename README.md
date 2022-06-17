@@ -2,13 +2,13 @@
 
 this repo for important data structure implementation in javascript👌
 
-## Data structure implemented
+## Data structure type implemented:
 
 - Stack
-  - **Push()** add new element to storage.
-  - **pop()** delete last element.
+  - **Push()** add new item to storage.
+  - **pop()** delete last item.
   - **length()** return size of storage.
-  - **peek()** return last item without delete it.
-  - **swap()** swap last two element.
-  - **print()** return join of storage elements as String.
-  - **isEmpty()** return Boolean to check if storage empty or not.
+  - **peak()** return first item.
+  - **swap()** swap first two items.
+  - **print()** return items.
+  - **isEmpty()** return Boolean to check if stack empty or not.
